@@ -143,6 +143,7 @@ export default class Cart {
     if (this.isEmpty()) {
       this.modal.close();
     }    
+    //
 
     let productId = cartItem.product.id; 
     let modalBody = this.modal.sub('body');
